@@ -32,3 +32,5 @@ if (err) {
 	console.error('');
 	process.exit(1);
 }
+console.log(process.env);
+process.exit(1);
